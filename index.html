@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #e9e9e9;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 35px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            padding: 40px;
+            gap: 40px;
+        }
+
+      
+        .sidebar {
+            width: 260px;
+            background: white;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h2 {
+            font-size: 28px;
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 25px;
+        }
+
+        .sidebar li {
+            margin: 25px 0;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+      
+        .content {
+            flex: 1;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        .cards {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 290px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .card-text {
+            font-size: 18px;
+            margin-top: 5px;
+            color: #444;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>TOP 3</header>
+
+    <div class="container">
+
+      
+        <aside class="sidebar">
+            <h2>Plataformas</h2>
+            <ul>
+                <li>Youtube</li>
+                <li>Spotify</li>
+                <li>Apple Music</li>
+                <li>Radio uno</li>
+            </ul>
+        </aside>
+
+       
+        <main class="content">
+            <h2>Tiraderas</h2>
+
+            <div class="cards">
+
+               
+                <div class="card">
+                    <img src="pirlo.jpg"> 
+                    <div class="card-title">PIRLO</div>
+                    <div class="card-text">La rata.</div>
+                </div>
+
+             
+                <div class="card">
+                    <img src="blessd.jpg">
+                    <div class="card-title">BLESSD</div>
+                    <div class="card-text">El blandito.</div>
+                </div>
+
+                
+                <div class="card">
+                    <img src="kris r.jpg">
+                    <div class="card-title">KRIS R</div>
+                    <div class="card-text">La K.</div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        © 2025 PLAYLIST
+    </footer>
+
+</body>
+</html>
